@@ -2,7 +2,7 @@
 
 ## Elevator Pitch
 
-*A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
+Math Magician is a dungeon-crawler wherein the player will utilize an array of spells revolving around mathematics to defeat enemies. Player's gain new mathematical 'powers' after beating the boss of each level thereby increasing the complexity of the puzzles and enemies. Concepts includes basic addition, subtraction, multiplication, division, etc.
 
 ## Influences (Brief)
 
