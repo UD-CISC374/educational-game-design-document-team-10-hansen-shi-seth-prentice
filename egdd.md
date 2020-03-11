@@ -2,19 +2,19 @@
 
 ## Elevator Pitch
 
-Math Magician is a dungeon-crawler wherein the player will utilize an array of spells revolving around mathematics to defeat enemies. Player's gain new mathematical 'powers' after beating the boss of each level thereby increasing the complexity of the puzzles and enemies. Concepts includes basic addition, subtraction, multiplication, division, etc.
+Math Magician is a cute dungeon-crawler wherein the player will utilize an array of spells revolving around mathematics to defeat enemies in turn based battles. Player's gain new mathematical 'powers' after beating the boss of each level thereby increasing the complexity of the puzzles and enemies. Concepts includes basic addition, subtraction, multiplication, division, etc.
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- Counting Kingdom:
+  - Medium: Game
+  - Explanation: Arithmetic puzzle-esque game, our game is a similar concept
+- Darkest Dungeon:
+  - Medium: Game
+  - Explanation: This game uses a turn based combat system. Fights tend to have gimmicks or puzzle elements which is similar to our game as fights will be turn based and puzzle-esque. 
+- Cat Quest:
+  - Medium: Game
+  - Explanation: This game is cute has heck and it has a similar aesthetic to what we want to emulate for our game. The 2.5d gameplay is also similar to what the non-combat portions of our game would be.
 
 ## Core Gameplay Mechanics (Brief)
 
