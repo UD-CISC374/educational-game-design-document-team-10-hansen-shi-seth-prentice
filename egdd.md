@@ -97,7 +97,7 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 # Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+Players will be able to move left and right and jump. You will be able to change screens by going through doors. When encountering an enemy you will be able to use spells you have the resoures for to defeat them. When you find number crystals you can pick them up to add to your set of spells.
 
 # Rules
 
@@ -105,13 +105,23 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+- Number crystals
+- Health potions
+- Basic enemies, skeletons, slimes, ect.
+- Doors
+- Bosses
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- Move horizontally through the world.
+- Collide with number crystals to collect them
+- Collide with enemies to enter combat
+- In combat, select spells from your pouch to solve the enemies equation
+- Use doors to progress to different stages
+- In combat, your enemy hitting you deals damage
+- At 0 health you lose
+- Collide with health potions to heal
+- Use chests to generate a bunch of items
 
     
 ## Feedback
@@ -126,13 +136,15 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 *Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
 
+At the start of the dungeon the mechanics of the game will be laid out in short signs, having to complete the actions described to progress.
+
 ## Presentation of Content
 
 *Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+You are a brave Math magician who is delving into the depths of the arithmetic dungeon to get rid of monsters and find treasure!
 
 ## Storyboarding
 
