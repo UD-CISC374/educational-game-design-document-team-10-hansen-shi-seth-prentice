@@ -79,8 +79,6 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
 - Start screen/menu: The player can navigate a menu, tweak options, and start the game
 - SinglePlayer: The player progresses through various levels until they defeat the final boss and effectively win
 - (fun idea) Grownup Mode: Similar to singleplayer mode but enemies are more difficult and tougher math concepts are convered. Meant to be rather challenging.
@@ -97,28 +95,43 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 # Procedures/Actions
 
-Players will be able to move left and right and jump. You will be able to change screens by going through doors. When encountering an enemy you will be able to use spells you have the resoures for to defeat them. When you find number crystals you can pick them up to add to your set of spells.
+- Players will be able to move left and right and jump
+- Players will be able to change screens and progress by going through doors
+- When the player collides with an enemy they will enter into combat mode wherein you combine number crystals to cast spells and do damage 
+- When the player finds number shards you can pick them up to add to your set of spells.
+- Defeating the boss of an area unlocks a door and gives the player access to a new operator or other game mechanic
 
 # Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+- The player has a limited amount of health, if health is reduced to zero then the player loses
+- If a player loses, they will either respawn at a checkpoint or at the beginning of the level
+- Health can be resotred by picking up potions which are scattered around the environment
+- There are various enemies roaming around, when a player collides with an enemy they will be transitioned into a battle scene
+- Enemies have limited health which is displayed above their head, they deal a set amount of damage also displayed above their head
+- To defeat an enemy the player must combine their number shards with magical operators to make spells that deal damage. Once an enemies health reaches zero the battle ends.
+- The player has a limited amount of number shards which are consumed when using spells
+- Number shards drop from defeated enemies and chests. They can also be found in the environment
+- If the player were to run out of number shards they would be reduced to only using number fragments (shards with a value of 1) so they aren't softlocked from progressing
+- At the end of each area there will be a boss 
+- Defeating the boss results in the player gaining a new power/operator
+- The player can only progress to the next area after defeating the boss
 
 # Objects/Entities
 
+- Young nimble wizard 
 - Number crystals
 - Health potions
 - Basic enemies, skeletons, slimes, ect.
 - Doors
-- Bosses
+- Boss enemies, hydra, ogre, dragon, etc.
 
 ## Core Gameplay Mechanics (Detailed)
 
-- Move horizontally through the world.
-- Collide with number crystals to collect them
-- Collide with enemies to enter combat
-- In combat, select spells from your pouch to solve the enemies equation
-- Use doors to progress to different stages
-- In combat, your enemy hitting you deals damage
+- The player can move horizontally and vertically through the world with the arrow keys or WASD keys. They must traverse the platforming sections of each level in search of a very obviously labled boss who guards the door to the next area
+- There are various "loot" items scattered around the world which are collected when the player character touches them. These items include health potions and all degrees of number shards
+- There are enemies roaming around the area. The player can avoid combatting by avoiding contact with them. However, upon contact with an enemy the player will be launched into battle wherein the player character will be on the left and the enemy on the right
+- Combat is turn based with the player having the first action. Players can create and cast spells by combining number shards along with the operators they have access to. The spell will deal the sum of the equation as damage to the enemy (whose health total is displayed above their head)
+- In combat, during the player's turn, they will be able to see the enemy's "intent" via a symbol. This shows the player what action the enemy will perform when they end their turn. Ex. a sword symbol would mean that the enemy is going to attack
 - At 0 health you lose
 - Collide with health potions to heal
 - Use chests to generate a bunch of items
@@ -130,6 +143,8 @@ Players will be able to move left and right and jump. You will be able to change
 
 *Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
 
+- 
+
 # Story and Gameplay
 
 ## Presentation of Rules
@@ -137,6 +152,8 @@ Players will be able to move left and right and jump. You will be able to change
 *Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
 
 At the start of the dungeon the mechanics of the game will be laid out in short signs, having to complete the actions described to progress.
+
+-
 
 ## Presentation of Content
 
