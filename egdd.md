@@ -15,74 +15,75 @@ Math Magician is a cute dungeon-crawler wherein the player will utilize an array
 - Cat Quest:
   - Medium: Game
   - Explanation: This game is cute has heck and it has a similar aesthetic to what we want to emulate for our game. The 2.5d gameplay is also similar to what the non-combat portions of our game would be.
+- Indivisible 
+  - Medium: Game
+  - Explanation: A recent title that blended 2-d platforming with party based, real time combat. For our game we envisioned something similar wherein the player can navigate a 2-d platformer world and then launch into an rpg style turn based gameplay style when encountering enemies.
 
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- Enter into a level
+- Collect consumable "number shards"
+- Navigate the level by running and jumping
+- Run into enemies to engage in combat
+- Combat is turn based
+- Form spells by combining number shards
+- Spells damage is based on the values and how they are combined (ex. addition vs. multiplication)
+- Each level has a boss
+- Defeating the boss completes the level and will give the player a new ability
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+- Basic arithmetic 
 
 ## Target Audiences
 
-*Who are your learners?*
+- Younger demographics who may be struggling with arithmetic
+- Younger demographics who want an entertaining way to practice their mathematical skills
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+- This game can act as one of the various options available to elementary/middleschool students during computer lab sessions
+- This game could be used as an additional source of practice outside the classroom 
 
 ## Learning Objectives
 
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
-
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- Apply the Big 4: After playing, students should be able to solve simple math problems revolving around the 4 arithmetic operators
+- Determine Other Solutions: After playing, students should be able to evaluate a simple math problem and propose a variety of solutions given that more than one exists
+- Mix and Match : After playing, students should be able to combine and utilize different operators to solve mathematical problems
 
 ## Prerequisite Knowledge
 
-*What do they need to know prior to trying this game?*
-
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- Players should be able to recognize common mathematical operators (+, -, x, ÷, /)
+- Players should have some amount of experience using these operators
+- Players should ideally have some level of experience with 2-d platformers to be able to navigate the game world adeptly
 
 ## Assessment Measures
 
-*Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
-
-*If proposing a new instrument, briefly and concisely list some example assessment questions.*
+- One could have a pre-test and post-test where each student is given a time limit (let's say 15 minutes). We would then compare the overall completeness and correctness of the pre-tests against the post-tests.
+- A variation on this method would present the students with a pre-test and post test and they would be timed to see how long it takes them to complete each. We would then compare the average time needed to complete each test and the average scores on each test.
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- The dichotomy between the two gameplay styles (2-d platformer and turn-based rpg) creates an engaging experience and in regards to its educational aspects, presents a natural "break" timer inbetween the "learning" sections (combat)
+- Mathematics is generally considered a difficult subject and often disliked by students. Presenting it in a more palatable form to a younger audience may help them develop their skills and interests in the subject early on leading to a smoother transition later when math becomes an integral part of their academics
+- Creating a decent educational game centered around math is a difficult science, therefore we should dedicate more efforts towards finding various solutions to this conundrum
+- It's gonna be cute as heck (hopefully)
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+The game is single player with keyboard and mouse controls. Navigation is done with the arrow keys and combat sections will be played with the mouse (clicking and dragging).
 
 ## Player Modes
 
 *Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
 
-- *Player mode #1*: *Description*
-- *Player mode #2*: *Description*
-- *etc.*
+- Start screen/menu: The player can navigate a menu, tweak options, and start the game
+- SinglePlayer: The player progresses through various levels until they defeat the final boss and effectively win
+- (fun idea) Grownup Mode: Similar to singleplayer mode but enemies are more difficult and tougher math concepts are convered. Meant to be rather challenging.
 
 # Gameplay Objectives
 
