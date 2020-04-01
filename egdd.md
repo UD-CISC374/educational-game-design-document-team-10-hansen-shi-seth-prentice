@@ -85,13 +85,10 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *etc.*
+- Get to the loot room:
+    - Description: At the end of the of the dungeon there is a treasure you are searching for, maybe a powerful math artifact
+    - Alignment: You learn math concepts along the way
+
 
 # Procedures/Actions
 
@@ -141,9 +138,14 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 *Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
 
+- When you get a monsters equation correct it flashes and dies
+- When you pick up an item a sound plays
+- When you beat the game a sound plays
+
+
 *Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
 
-- 
+- Congradulation for beating game
 
 # Story and Gameplay
 
@@ -151,13 +153,15 @@ The game is single player with keyboard and mouse controls. Navigation is done w
 
 *Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
 
-At the start of the dungeon the mechanics of the game will be laid out in short signs, having to complete the actions described to progress.
+- At the start of the dungeon the mechanics of the game will be laid out in short signs, having to complete the actions described to progress.
 
--
+
 
 ## Presentation of Content
 
 *Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+
+Learners will have to solve arithmetic equations repeatedly and will be rewarded for solving them correctly.
 
 ## Story (Brief)
 
@@ -173,20 +177,22 @@ You are a brave Math magician who is delving into the depths of the arithmetic d
 
 *Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
 
+A dark dungeon but with soft looking enemies as to give the atmosphere of a dungeon without scaring cildren playing the game.
+
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - The Mathmagician
+  - Skeleton
+  - Goblin
+  - Hydra
+  - Ogre of Operations
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
-- Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - Dungeon background
+  - Doors
+  - Math Crystals (1-15)
+  - Health Potioins
+  - Chests
 
 
 ## Audio
@@ -195,14 +201,17 @@ You are a brave Math magician who is delving into the depths of the arithmetic d
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - Overworld music *calm/mystical music*
+  - Battle music *high energy fast music*
+  - Boss music *intesne music*
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - picking up a math crystal *plink*
+  - picking up a bottle *glug*
+  - hitting an enemy *TTSTSsSsSs*
+  - getting hit *oof*
 
 
 # Metadata
