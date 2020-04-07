@@ -136,8 +136,6 @@ The game is single player with keyboard and mouse controls. Navigation is done w
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
-
 - When you get a monsters equation correct it flashes and dies
 - When you pick up an item a sound plays
 - When you beat the game a sound plays
@@ -169,7 +167,29 @@ You are a brave Math magician who is delving into the depths of the arithmetic d
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+Ex 1. Tutorial 
+-	The player is a special kid in a number world who was born with the power of 0
+-	At a young age of 10, his dad had only taught him about addition and a basic spell: number + number
+-	One day the father wants the player to go out and bring back a rabbit
+-	He hands the player a ‘2’ shard and send them off
+-	The player must find a rabbit and engage in combat by running into it
+-	The player appears on the left, and the rabbit on the right
+-	The rabbit has 2 health and displays the intent to ‘flee’ meaning that the player must end the fight this turn
+-	To cast a spell the player must follow the spell his father taught him
+-	So, the player must follow: Number + Operator + Number
+-	The player selects the 2 his father gave him, the + symbol he was taught, and his innate 0 to give 2 + 0 and launches an attack at the rabbit, depleting its health to 0 and winning the fight
+
+Ex 2. Tutorial Pt. 2
+-	The player, rabbit in hand must make his way home
+-	The player unluckily runs into a stray wolf who runs into the player initiating combat
+-	The player manages to find a stray 3 crystal on the ground
+-	The wolf has 5 health and shows the intent to attack for 3
+-	The player gains the option to cast a defensive spell
+-	The player then selects: 3, +, and the innate 0 to cast a shield that blocks for 3
+-	The wolf’s attack is diverted but now the player has no number shards to attack with and the wolf is again displaying the intent to attack
+-	The player’s father shows up in the nick of time and casts a big spell, 10 + 10
+-	This destroys the wolf and he states to the player that he used too strong a spell and that as a result the wolf would drop no loot
+
 
 # Assets Needed
 
